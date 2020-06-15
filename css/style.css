@@ -1,0 +1,101 @@
+/* Required height of parents of the Full Page Carousel for proper displaying carousel itself */
+html,
+body,
+.view {
+  height: 100%; }
+
+/* Full Page Carousel itself*/
+.carousel {
+  height: 100%; }
+  .carousel .carousel-inner {
+    height: 100%; }
+    .carousel .carousel-inner .carousel-item,
+    .carousel .carousel-inner .active {
+      height: 100%; }
+
+/* Navbar animation */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.2); 
+  font-weight: 900;
+  font-size: 18px;
+  text-shadow: 2px 2px 2px black;
+  transition: all .2s ease-in-out;
+}
+
+.nav-link:hover {
+color: rgba(255,192,203,0.4) !important;
+transform: scale(1.1);
+}
+
+
+}
+.top-nav-collapse {
+  background-color: #1C2331; }
+
+.text-center.white-text.mx-5.wow.fadeIn {
+  text-shadow: 2px 2px 2px black;
+  text-transform: capitalize;
+}
+
+.btn.btn-lg {
+  background-color: rgba(255,192,203,0.4);
+  border-radius: 40px;
+  transition: all .2s ease-in-out;
+}
+
+
+.btn.btn-lg:hover {
+  transform: scale(1.1);
+}
+ 
+
+.btn.btn-info.btn-md {
+  border-radius: 30px !important;
+}
+
+
+
+
+.row2.col-md-6.mb-4 { 
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  background-image: url("https://images.unsplash.com/photo-1591330916745-625b763c0a17?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 30px;
+}
+  
+.row2text {
+  color: #000;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-weight: 500;
+  text-shadow: 1px 1px 1px white;
+}
+
+.btn.btn-primary.btn-md {
+  border-radius: 40px;
+  transition: all 2s;
+}
+
+.btn.btn-primary.btn-md:hover {
+  transform: rotate(380deg);
+  cursor: pointer;
+}
+
+
+/* Adding color to the Navbar on mobile */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #1C2331; } 
+
+
+
+
+
+/* Footer color for sake of consistency with Navbar */
+.page-footer {
+  background-color: #1C2331; }
+
